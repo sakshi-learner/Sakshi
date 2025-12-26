@@ -11,10 +11,10 @@ function ContactMe() {
 
     emailjs
       .sendForm(
-        "service_4kkj4vw",
-        "template_xxs1fan",
+        "service_4kkj4vw",   // Your Service ID
+        "template_xxs1fan",   // Your Template ID
         form.current,
-        "Y--NanxcuREixXi09"
+        "Y--NanxcuREixXi09"  // Your Public Key
       )
       .then(
         () => {
@@ -46,7 +46,7 @@ function ContactMe() {
           name="from_name"
           placeholder="Your Name"
           required
-          className="w-full p-2 mb-3 bg-gray-700 text-white "
+          className="w-full p-2 mb-3 bg-gray-700 text-white"
         />
 
         <input
@@ -57,12 +57,20 @@ function ContactMe() {
           className="w-full p-2 mb-3 bg-gray-700 text-white"
         />
 
+        <input
+          type="text"
+          name="title"  // Required for template {{title}}
+          placeholder="Subject"
+          required
+          className="w-full p-2 mb-3 bg-gray-700 text-white"
+        />
+
         <textarea
           name="message"
           placeholder="Your Message"
           rows="4"
           required
-          className="w-full p-2 mb-4 bg-gray-700 text-white "
+          className="w-full p-2 mb-4 bg-gray-700 text-white"
         ></textarea>
 
         <button
