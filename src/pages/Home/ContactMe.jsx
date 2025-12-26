@@ -11,7 +11,7 @@ function ContactMe() {
 
     emailjs
       .sendForm(
-        "service_6q77s42",
+        "service_4kkj4vw",
         "template_xxs1fan",
         form.current,
         "Y--NanxcuREixXi09"
