@@ -18,12 +18,12 @@ function Header() {
 
       {/* Resume download button */}
       <a
-        href="/Sakshi/ResumeSakshisingh_.pdf"  // file must be in public folder
-        download
-        className='flex items-center gap-2 bg-teal-500 hover:bg-teal-600 text-black font-semibold py-2 px-4 rounded'
-      >
-        Resume    <Download />
-      </a>
+  href={`${import.meta.env.BASE_URL}ResumeSakshisingh.pdf`}
+  download
+  className="flex items-center gap-2 bg-teal-500 hover:bg-teal-600 text-black font-semibold py-2 px-4 rounded"
+>
+  Resume <Download />
+</a>
     </div>
   );
 }
