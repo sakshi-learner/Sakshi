@@ -3,7 +3,7 @@ export const education =[
         course: "Bachelor of Technology (CS)",
         school: "Shri Ram Institute of Science and technology jabalpur",
         batch: "2026",
-        cgpa: "7.94 "
+        cgpa: "CGPA : 8.05/10 "
     },
 
     {
