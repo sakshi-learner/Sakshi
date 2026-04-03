@@ -6,9 +6,7 @@ function Skill() {
     "Core Java",
     "JavaScript",
     "Node.js",
-    "Express.js",
     "SQL",
-    "MongoDB",
     "React.js",
     "HTML",
     "CSS",
@@ -18,7 +16,7 @@ function Skill() {
     "Kafka",
     "radis",
     "Socket.io",
-    "Squalize"
+    "tailwind CSS",
   ]
 
   

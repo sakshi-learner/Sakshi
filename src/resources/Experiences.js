@@ -4,7 +4,7 @@ export const experiences =[
       period:"feb 2026 - Present",
       company: "MBG card",
       title: "Software development Engineer",
-      description:"Develop and maintain scalable web features using React.js, Node.js, and REST APIs while collaborating with the backend team to improve system performance."
+      description:"Develop and maintain scalable web features using React.js, and REST APIs while collaborating with the backend team to improve system performance. Develop and maintain scalable web features using REST APIs in a production environment, Applied Core Java fundamentals for server-side logic, data processing, and backend API integration tasks. Collaborated with backend and frontend teams to improve system performance, code quality, and API reliability. Participated in code reviews, debugging, and sprint planning as part of an Agile development workflow."
       
     },
     {
