@@ -1,4 +1,28 @@
 export const projects = [
+   {
+    
+    title: "Customer Relationship Management System",
+    image : "public/image.png",
+    technologies: [
+      "Java",
+      "Spring boot",
+      "React.js",
+      "Tailwind CSS",
+      "Redis",
+      "Docker",
+      "Kafka"
+    ],
+description:
+  "Developed and maintained a full-stack CRM application used by 80+ internal users and 5,000+ external customers. Built responsive, scalable frontend features using React.js, TypeScript, Redux, and React Query. Supported and debugged Java-based backend services, resolving critical production issues across the stack",
+    features: [
+      "API handling",
+      "Role based User authentication",
+      "manage services , customer and employee Management",
+      "Analytics system"
+    ],
+    link:"https://taskcrm.mbgcard.com/"
+  },
+
   {
     
     title: "Wonderlust",
@@ -36,7 +60,7 @@ export const projects = [
       "Good UI",
       "Simple to use"
     ],
-    link:"https://github.com/sakshi-learner/Weather-App"
+    link:" https://sakshi-learner.github.io/Weather-App/"
   },
   {
     title: "Simon Says",
