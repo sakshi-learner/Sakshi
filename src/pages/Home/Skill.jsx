@@ -4,9 +4,10 @@ import SectionTitle from '../../components/SectionTitle'
 function Skill() {
   const skill = [
     "Core Java",
-    "JavaScript",
-    "Node.js",
+    "Spring boot",
+    "javaScript",
     "SQL",
+    "NoSql",
     "React.js",
     "HTML",
     "CSS",
@@ -15,7 +16,6 @@ function Skill() {
     "Docker",
     "Kafka",
     "radis",
-    "Socket.io",
     "tailwind CSS",
   ]
 
